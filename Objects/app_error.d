@@ -1,0 +1,15 @@
+.\objects\app_error.o: components\libraries\util\app_error.c
+.\objects\app_error.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\nrf.h
+.\objects\app_error.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\nrf51.h
+.\objects\app_error.o: components\toolchain\gcc\core_cm0.h
+.\objects\app_error.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\app_error.o: components\toolchain\gcc\core_cmInstr.h
+.\objects\app_error.o: components\toolchain\gcc\core_cmFunc.h
+.\objects\app_error.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\system_nrf51.h
+.\objects\app_error.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\nrf51_bitfields.h
+.\objects\app_error.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\nrf51_deprecated.h
+.\objects\app_error.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\compiler_abstraction.h
+.\objects\app_error.o: components\libraries\util\app_error.h
+.\objects\app_error.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\app_error.o: components\softdevice\s110\headers\nrf_error.h
+.\objects\app_error.o: components\libraries\util\nordic_common.h

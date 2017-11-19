@@ -1,0 +1,11 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\app_error.o"
+".\objects\uart.o"
+".\objects\ble_advdata.o"
+".\objects\arm_startup_nrf51.o"
+".\objects\system_nrf51_1.o"
+--strict --scatter ".\Objects\ble.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ble.map" -o .\Objects\ble.axf
