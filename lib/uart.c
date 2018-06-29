@@ -18,11 +18,11 @@ void UART0_IRQHandler(void)
         }
 
 }
-void uartTxChar(uint8_t data)
+void uartTxChar(char data)
 {
     nrf_uart_task_trigger(NRF_UART0, NRF_UART_TASK_STARTTX);
     nrf_uart_event_clear(NRF_UART0, NRF_UART_EVENT_TXDRDY);
-    nrf_uart_txd_set(NRF_UART0,data);
+    nrf_uart_txd_set(NRF_UART0,(uint8_t)data);
     while(!nrf_uart_event_check(NRF_UART0, NRF_UART_EVENT_TXDRDY)){}
     nrf_uart_task_trigger(NRF_UART0, NRF_UART_TASK_STOPTX);
 }  
@@ -34,7 +34,7 @@ void uartTxBuf(uint8_t *data,uint16_t length)
     uartTxChar(*(data+cnt));
   }
 }  
-void uartTxStr(uint8_t *str)
+void uartTxStr(char *str)
 {
   while(*str!=0)
   {
@@ -51,11 +51,11 @@ void uartInit(void)
   nrf_uart_txrx_pins_set(NRF_UART0,UART_TX_PIN,UART_RX_PIN);
   nrf_uart_enable(NRF_UART0);
  
-  nrf_uart_int_enable(NRF_UART0, NRF_UART_INT_MASK_RXDRDY | NRF_UART_INT_MASK_ERROR);
+ /* nrf_uart_int_enable(NRF_UART0, NRF_UART_INT_MASK_RXDRDY | NRF_UART_INT_MASK_ERROR);
 
   NVIC_ClearPendingIRQ(UART0_IRQn);
   NVIC_SetPriority(UART0_IRQn, 0);
-  NVIC_EnableIRQ(UART0_IRQn);
+  NVIC_EnableIRQ(UART0_IRQn);*/
   
  // nrf_uart_task_trigger(NRF_UART0, NRF_UART_TASK_STARTTX);
   nrf_uart_task_trigger(NRF_UART0, NRF_UART_TASK_STARTRX);

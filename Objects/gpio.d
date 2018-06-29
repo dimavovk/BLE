@@ -1,0 +1,14 @@
+.\objects\gpio.o: lib\gpio.c
+.\objects\gpio.o: lib\gpio.h
+.\objects\gpio.o: components\drivers_nrf\hal\nrf_gpio.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\nrf.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\nrf51.h
+.\objects\gpio.o: components\toolchain\gcc\core_cm0.h
+.\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gpio.o: components\toolchain\gcc\core_cmInstr.h
+.\objects\gpio.o: components\toolchain\gcc\core_cmFunc.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\system_nrf51.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\nrf51_bitfields.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\nrf51_deprecated.h
+.\objects\gpio.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.14.1\Device\Include\compiler_abstraction.h
+.\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

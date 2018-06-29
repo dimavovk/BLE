@@ -1,1 +1,0 @@
-float nrf_temp_get(void);

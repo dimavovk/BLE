@@ -2,6 +2,8 @@
 ".\objects\main.o"
 ".\objects\app_error.o"
 ".\objects\uart.o"
+".\objects\gpio.o"
+".\objects\softdevice_handler.o"
 ".\objects\ble_advdata.o"
 ".\objects\arm_startup_nrf51.o"
 ".\objects\system_nrf51_1.o"
